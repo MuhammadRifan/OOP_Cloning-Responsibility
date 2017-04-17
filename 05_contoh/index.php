@@ -20,10 +20,10 @@ if ($test->validate($data, $rules) === true) {
     echo "<hr>";
 
     echo '<pre>';
-    return print_r($car);
+        return print_r($car);
     echo '</pre>';
 } else {
     echo '<pre>';
-    return print_r($test->error());
+        return print_r($test->error());
     echo '</pre>';
 }

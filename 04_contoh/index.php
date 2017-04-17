@@ -17,10 +17,12 @@ $car->cekMobil();
 echo "<hr>";
 var_dump($car);
 echo "<hr>";
+
 $mobil1->cekMobil();
 echo "<hr>";
 var_dump($mobil1);
 echo "<hr>";
+
 $mobil2->cekMobil();
 echo "<hr>";
 var_dump($mobil2);

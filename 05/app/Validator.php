@@ -74,6 +74,7 @@ class Validator
     private function validateRequired($item, $value, $parameter)
     { // method yang digunakan untuk mengecek value terisi atau tidak
         if ($value === '' || $value === null) {
+            // menggunakan === ( identical ) agar data yang diproses benar - benar mirip / sama
             $this->errors[$item][] = 'The '.$item.' field is required';
             return false;
         }

@@ -14,6 +14,7 @@ $validator = new Validator();
 
 // untuk mengetes apakah data mencukupi syarat yang diperlukan
 if ($validator->validate($data, $rules) === true) {
+    // menggunakan === ( identical ) agar data yang diproses benar - benar mirip / sama
     // jika berhasil, mendeklarasikan object baru untuk class user
     $budi = new User();
 
